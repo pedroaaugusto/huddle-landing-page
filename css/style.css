@@ -1,10 +1,12 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
 
 header{
     max-width: 100%;
-    height: 700px;
+    min-height: 700px;
     background-image: url(../img/bg-hero-desktop.svg);
-    /* display: flex; */
+    background-color: hsl(193, 100%, 96%);
 }
 
 .header-1{
@@ -19,7 +21,6 @@ header{
     display: flex;
     width: 240px;
     height:39px;
-
 } 
 
 .logo-header{
@@ -37,6 +38,11 @@ header{
     box-shadow: 0px -50px 180px calc(0.1px / 100 * 10);  
 }
 
+.bt{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
 .header-2{
     display: flex;
     width: 100%;
@@ -45,16 +51,263 @@ header{
 
 .box-txt-header{
     width: 40%;
-    margin: 0 2.5% 0 5%;
+    margin: 0 2% 0 5%;
+}
+
+.box-txt-header > h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 100px 0 40px;
+}
+
+h1 + p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: 520px;
+    height: auto;
+    padding: 0 0 40px;
+}
+
+.bt-start-free{
+    width: 280px;
+    height: 50px;
+    background-color: hsl(322, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 25px; 
+}
+
+.bt-start-free > .bt{
+    font-size: 13px;
+    color:aliceblue;
+
 }
 
 .box-img-header{
     width: 45%;
-    padding: 0px 40px;
-    margin: 0 5% 0 2.5%;
+    padding: 0 40px 0 0;
+    margin: 0 5% 0 2%;
 
 }
 
 .img-header{
     width: 100%;
 }
+
+/* fim header */
+
+.community{
+    padding: 110px 0 30px;
+}
+
+article{
+    display: flex;
+    width: 90%;
+    min-height: 410px;
+    margin: 30px 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px -7px;
+}
+
+.box-txt {
+    max-width: 60%;
+    padding: 0 120px;
+    margin: auto;
+}
+
+.box-txt > h2{
+    width: 350px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.box-txt > p{
+    width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(163, 163, 163);
+}
+
+.box-img-community{
+    max-width: 40%;
+    padding: 30px;
+    margin: auto;
+}
+
+.box-img-community > img{
+    width: 100%;
+}
+
+.ready-to-build{
+    position: relative;
+    top: 125px;
+    background-color: white;
+    margin: auto;
+    align-items: center;
+    width: 700px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px -7px;
+}
+
+.ready-to-build > h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 70px 0 40px;
+    width: 502px;
+    margin: auto;
+}
+
+.ready-to-build > .bt-start-free{
+    margin: auto;
+}
+
+
+/* fim main */
+
+footer{
+    width: 100%;
+    height: 630px;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.box-logo-footer{
+    display: block;
+    width: 240px;
+    margin: 0 auto 0 100px;
+    padding: 250px 0 0;
+}
+
+.logo-footer{
+    width:100%;
+}
+
+.box-txt-footer{
+    width: calc(100% - 200px);
+    margin: 30px auto;
+    display: flex;
+}
+
+.lorem{
+    width: 400px;
+}
+
+#loc, #phn, #eml{
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+#img-loc{
+    min-width: 13px;
+    height: 18px;
+    padding-right: 7px;
+}
+
+.icon{
+    width: 100%;
+}
+
+#txt-loc{
+    padding: 0 20px;
+}
+
+#txt-loc > p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+#img-phn{
+    min-width: 18px;
+    padding-right: 2px;
+}
+
+#txt-phn{
+    padding: 0 20px;    
+}
+
+#txt-phn > p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 16px;
+}
+
+#img-eml{
+    min-width: 20px;
+}
+
+#txt-eml{
+    padding: 0 20px;    
+}
+
+#txt-eml > p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 16px;
+}
+
+.about{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.about > p{
+    width: 120px;
+    height: 32px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 16px;
+    padding-left: 80px;
+}
+
+.copyright{
+    width: calc(100% - 200px);
+    margin: 30px auto 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyright > p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: white;
+}
+
+/* @media (max-width: 375px){
+
+    header{
+        max-width: 100%;
+        min-height: 700px;
+        background-image: url(../img/bg-hero-mobile.svg);
+        background-color: hsl(193, 100%, 96%);
+    }
+
+    .header-1{
+        display: block;
+        max-width: 359px;
+        height: 43px;
+        justify-content: space-between;
+        padding: 60px 90px;
+    }
+
+} */
+
+/* irei finalizar parte mobile */
