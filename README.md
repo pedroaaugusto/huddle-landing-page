@@ -12,9 +12,12 @@ Caso queira conferir o resultado obtido do projeto, fique à vontade para acessa
 
 ## Objetivo de interface desejada 
 
+![desktop-design](https://user-images.githubusercontent.com/115605744/226776579-7dfb7f02-fbad-4686-acd7-f06c2d582363.jpg)
 
-
-
+![mobile-design](https://user-images.githubusercontent.com/115605744/226776659-5cd887b8-d50b-4c10-a9e2-b48445063d22.jpg)
 
 ## Interface obtida
 
+![tela 1](https://user-images.githubusercontent.com/115605744/226776520-6e548fa4-7af6-400b-9cb1-7264550d685b.png)
+
+![tela 2](https://user-images.githubusercontent.com/115605744/226776526-b52e827d-5ac2-4f6b-ae35-bfb540e22649.png)
