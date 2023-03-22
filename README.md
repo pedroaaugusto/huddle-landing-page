@@ -6,7 +6,7 @@ Ao longo do desenvolvimento deste projeto, foquei em aprimorar minhas habilidade
 
 Caso queira conferir o resultado obtido do projeto, fique à vontade para acessar o link disponibilizado. E se tiver alguma dúvida ou quiser saber mais sobre o meu processo de desenvolvimento, não hesite em entrar em contato comigo. 
 
-<!-- deploy -->
+https://incredible-churros-4eb13f.netlify.app/
 
 # Frontend Mentor - Seção de grade de depoimentos
 
