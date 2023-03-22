@@ -18,7 +18,6 @@ header{
 }
 
 .box-logo-header{
-    display: flex;
     width: 240px;
     height:39px;
 } 
@@ -26,6 +25,17 @@ header{
 .logo-header{
     width: 100%;
 }
+
+/* .bt-try-free{
+    width: 180px;
+    height: 43px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 22px; 
+    box-shadow: 0px -50px 180px calc(0.1px / 100 * 10);  
+} */
 
 .bt-try-free{
     width: 180px;
@@ -35,12 +45,26 @@ header{
     justify-content: center;
     align-items: center; 
     border-radius: 22px; 
-    box-shadow: 0px -50px 180px calc(0.1px / 100 * 10);  
+    box-shadow: 0px 0px 12px -7px;
+    cursor: pointer;  
+}
+
+.bt-try-free:hover{
+    background-color: hsl(322, 100%, 66%);
+    width: 183px;
+    height: 46px;
+    transition: background-color 0.4s;
+    box-shadow: 2px 2px 12px -2px;
+}
+
+.bt-try-free > a{
+    color: black;
 }
 
 .bt{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .header-2{
@@ -80,6 +104,15 @@ h1 + p{
     justify-content: center;
     align-items: center; 
     border-radius: 25px; 
+    box-shadow: 0px 0px 12px -7px;
+}
+
+.bt-start-free:hover{
+    background-color: hsl(310, 100%, 71%);
+    width: 283px;
+    height: 53px;
+    transition: background-color 0.4s;
+    box-shadow: 2px 2px 12px -2px;
 }
 
 .bt-start-free > .bt{
@@ -291,23 +324,200 @@ footer{
     color: white;
 }
 
-/* @media (max-width: 375px){
+@media (max-width: 375px){
 
     header{
         max-width: 100%;
-        min-height: 700px;
+        min-height: 690px;
         background-image: url(../img/bg-hero-mobile.svg);
         background-color: hsl(193, 100%, 96%);
     }
 
     .header-1{
-        display: block;
-        max-width: 359px;
+        display: flex;
+        max-width: 375px;
         height: 43px;
         justify-content: space-between;
-        padding: 60px 90px;
+        padding: 30px 15px;
     }
 
-} */
+    .box-logo-header{
+        width: 120px;  
+    } 
 
-/* irei finalizar parte mobile */
+    
+    .bt-try-free{
+        width: 105px;
+        height: 25px;
+        box-shadow: 0px 0px 12px -7px;
+    }
+
+    .bt-try-free:hover{
+        width: 105px;
+        height: 25px;
+        box-shadow: 0px 0px 12px -7px;
+    }
+
+    .bt{
+        font-size: 11px;
+    }
+    
+    .header-2{
+        display: block;
+    }
+    
+    
+    .box-txt-header{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .box-txt-header > h1{
+        font-size: 25px;
+        line-height: 30px;
+        padding: 20px 7px 25px;
+    }
+    
+    h1 + p{
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 307px;
+        margin: auto;
+        padding: 0 0 40px;
+    }
+    
+    .bt-start-free{
+        width: 240px;
+        height: 40px;
+        margin: 0 auto 50px;
+    }
+
+    .bt-start-free:hover{
+        width: 240px;
+        height: 40px;
+        margin: 0 auto 50px;
+    }
+    
+    .bt-start-free > .bt{
+        font-size: 12px;
+    }
+    
+    .box-img-header{
+        width: 300px;
+        padding: 0;
+        margin: auto;
+    
+    }
+    
+    .img-header{
+        width: 100%;
+    }  
+
+    /* fim header */
+
+    .community{
+        padding: 30px 0 0px;
+    }
+    
+    .grow, .users{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .conversations{
+        display: block;
+    }
+    
+    .box-txt {
+        display: block;
+        max-width: 90%;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .box-txt > h2{
+        width: 100%;
+        font-size: 22px;
+    }
+    /* importante olhar font size h2 e p */
+    .box-txt > p{
+        width: 100%;
+        line-height: 25px;
+        padding: 0 0 20px;
+    }
+    
+    .box-img-community{
+        max-width: 90%;
+        padding: 30px;
+    }
+    
+    .box-img-community > img{
+        width: 100%;
+    }
+
+    
+    .ready-to-build{
+        top: 65px;
+        align-items: center;
+        width: 95%;
+        height: 150px;
+    }
+    
+    .ready-to-build > h1{
+        font-size: 18px;
+        padding: 35px 0 20px;
+        width: 90%;
+        margin: auto;
+    }
+    
+    .bt-start-free > .bt{
+        font-size: 12px;
+    }
+
+    /* fim main */
+
+    footer{
+        width: 100%;
+        height: 650px;
+    }
+    
+    .box-logo-footer{
+        display: block;
+        width: 120px;
+        margin: 10px;
+        padding: 120px 0 0;
+    }
+    
+    
+    .box-txt-footer{
+        width: 90%;
+        margin: 20px 10px;
+        display: block;
+    }
+    
+    .lorem{
+        width: 100%;
+    }
+    
+    
+    .about{
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+    
+
+    .about > p{
+        width: 100%;
+        padding-left: 0;
+    }
+    
+    .copyright{
+        width: 67%;
+        margin: 20px auto;
+        display: block;
+    }
+} 
+
